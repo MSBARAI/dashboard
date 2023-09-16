@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page-2</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="images/logo_01.png" rel="shortcut icon" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <!--- header---->
+  <header>
+    <div class="con">
+      <div class="ro">
+        <div class="logo">
+          <img src="images/logo_01.png">
+        </div>
+        <div class="user">
+          <a href="#"><img src="images/user.png"><span> Welcome Nikhil Khandelwal</span></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--- header end---->
+  <!--- menu---->
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+      aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><img src="images/dashboard.png"> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="images/equilizes.png"> INVESTOR PROFILE </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="#">Add New Expense</a>
+            <a class="dropdown-item" href="#">List Update Expense</a>
+            <a class="dropdown-item" href="#">For Approval</a>
+            <a class="dropdown-item" href="#">Approve / Reject List</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><img src="images/people.png"> VIEW INVESTOR PROFILE <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="images/assignment.png"> TASK MANAGEMENT </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="#">Add Task</a>
+            <a class="dropdown-item" href="#">View Update Task</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="images/calendar.png"> MEETINGS </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="#">Add Task</a>
+            <a class="dropdown-item" href="#">View Update Task</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="images/date.png"> MILESTONE </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="#">Add Task</a>
+            <a class="dropdown-item" href="#">View Update Task</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="images/date.png"> REPORTS </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="#">Add Task</a>
+            <a class="dropdown-item" href="#">View Update Task</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="images/account_box.png"> ADMIN PANEL </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="#">Add Task</a>
+            <a class="dropdown-item" href="#">View Update Task</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--- menu end---->
+  <!--- section---->
+  <section>
+    <h1>Dashboard</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 ch">
+          <h2>Milestone - Executed and Pending</h2>
+          <div id="chart">
+            <div id="responsive-chart"></div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+
+          <div class="row top">
+            <div class="col-md-6 col-xs-12 ch">
+
+              <div class="card-content table-responsive">
+                <h2>Milestone</h2>
+                <table class="table table-hover">
+
+                  <tbody>
+                    <tr>
+                      <td>Initial</td>
+                      <td>45</td>
+                    </tr>
+                    <tr>
+                      <td>Engaged</td>
+                      <td>9</td>
+                    </tr>
+                    <tr>
+                      <td>Registration</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td>Registred</td>
+                      <td>23</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-6 col-xs-12 ch">
+
+              <div class="card-content table-responsive exicu">
+                <h2>Task</h2>
+                <button type="button" )">Execute</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row bottom">
+            <div class="col-md-12 bh">
+              <h2 style="margin-bottom: 0px;">Investor / Enterprise List</h2>
+              <div class="card-content table-responsive" style="border: none;overflow-x:auto;padding-top: 0px;">
+
+                <table class="table table-hover">
+                  <thead class="text-primary">
+                    <tr>
+                      <th>Inquiry</th>
+                      <th>Mildstone</th>
+                      <th></th>
+                      <th>Action</th>
+                      <th>Last Changed On</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>bajaj finance pvt ltd</td>
+                      <td>Initial</td>
+                      <td>change</td>
+                      <td>Inhouse</td>
+                      <td></td>
+                      <td>Edit</td>
+                    </tr>
+                    <tr>
+                      <td>MainOne</td>
+                      <td>Engaged</td>
+                      <td>change</td>
+                      <td>Collection Of Data</td>
+                      <td></td>
+                      <td>Edit</td>
+                    </tr>
+                    <tr>
+                      <td>Kam Industry</td>
+                      <td>Engaged</td>
+                      <td>change</td>
+                      <td>Collection Of Data</td>
+                      <td>Nov 5,2020</td>
+                      <td>Edit</td>
+                    </tr>
+                    <tr>
+                      <td>Leadway Assurance</td>
+                      <td>Engaged</td>
+                      <td>change</td>
+                      <td>Collection Of Data</td>
+                      <td>Sep 28,2020</td>
+                      <td>Edit</td>
+                    </tr>
+                    <tr>
+                      <td>Azino Honeybee</td>
+                      <td>Engaged</td>
+                      <td>change</td>
+                      <td>Collection Of Data</td>
+                      <td>Sep 28,2020</td>
+                      <td>Edit</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--- section end---->
+  <!--- copyright---->
+
+  <!--- copyright end---->
+  <!--- Javascript---->
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script>
+    var options = {
+      chart: {
+        width: "100%",
+        height: 380,
+        type: "bar"
+      },
+      plotOptions: {
+        bar: {
+          vertical: true
+        }
+      },
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        width: 1,
+        colors: ["#fff"]
+      },
+      series: [
+        {
+          data: [44, 55, 41, 64, 22, 43, 21]
+        },
+        {
+          data: [53, 32, 33, 52, 13, 44, 32]
+        }
+      ],
+      xaxis: {
+        categories: [
+          "Korea",
+          "Canada",
+          "Poland",
+          "Italy",
+          "France",
+          "Japan",
+          "China"
+        ]
+      },
+      legend: {
+        position: "right",
+        verticalAlign: "top",
+        containerMargin: {
+          left: 35,
+          right: 60
+        }
+      },
+      responsive: [
+        {
+          breakpoint: 1000,
+          options: {
+            plotOptions: {
+              bar: {
+                horizontal: false
+              }
+            },
+            legend: {
+              position: "bottom"
+            }
+          }
+        }
+      ]
+    };
+
+    var chart = new ApexCharts(
+      document.querySelector("#responsive-chart"),
+      options
+    );
+
+    chart.render();
+  </script>
+</body>
+
+</html>

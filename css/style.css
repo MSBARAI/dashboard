@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+a,
+h1 {
+  text-decoration: none !important;
+  color: #001f56;
+}
+
+/*---- header---- */
+img {
+  vertical-align: middle;
+}
+
+.con {
+  max-width: 1920px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.small-con {
+  max-width: 1120px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section {
+  background-color: #f1f4fb;
+}
+
+.ro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.material-icons {
+  vertical-align: bottom;
+}
+
+/*--- header end--- */
+/*--- menu--- */
+.nav-link,
+.dropdown-item {
+  font-size: 12px;
+}
+
+.bg-dark {
+  background-color: #001f56 !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #f51e00;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #001f56;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+
+}
+
+.navbar-dark .navbar-nav li:hover a {
+  background-color: #f51e00 !important;
+
+}
+
+/*--- menu end--- */
+/*--- section--- */
+section h1 {
+  color: #312010;
+  font-size: 30px;
+  padding: 20px 10px;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 100%;
+}
+
+.ch h2 {
+  background-color: #001f56;
+  color: #f1f4fb;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#chart {
+  max-width: 760px;
+  margin: 35px auto;
+  opacity: 0.9;
+}
+
+#SvgjsPath1019,
+#SvgjsPath1021,
+#SvgjsPath1023,
+#SvgjsPath1025,
+#SvgjsPath1027,
+#SvgjsPath1029,
+#SvgjsPath1031 {
+  fill: #001f56;
+}
+
+#SvgjsPath1036,
+#SvgjsPath1038,
+#SvgjsPath1040,
+#SvgjsPath1042,
+#SvgjsPath1044,
+#SvgjsPath1046,
+#SvgjsPath1048 {
+  fill: #f51e00;
+}
+
+.apexcharts-legend-marker {
+  background: #001f56 !important;
+  display: none;
+}
+
+.apexcharts-legend-text {
+  color: #001f56 !important;
+  display: none;
+}
+
+.apexcharts-legend-marker {
+  background: #f51e00 !important;
+  display: none;
+}
+
+.apexcharts-legend-text {
+  color: #f51e00 !important;
+  display: none;
+}
+
+.apexcharts-legend-series {
+  display: none;
+}
+
+.ch h2 {
+  position: absolute;
+  width: 96%;
+  top: -23px;
+  left: 2%;
+  z-index: 1;
+}
+
+.card-content.table-responsive {
+  padding-top: 23px;
+  position: relative;
+  box-shadow: 0 2px 1px grey;
+  border-radius: 10px;
+  overflow-x: inherit;
+}
+
+.table tr:first-child {
+  padding-top: 20px;
+  ;
+}
+
+.exicu {
+  height: 215px;
+  position: relative;
+}
+
+.exicu button {
+  position: absolute;
+  bottom: 3px;
+  right: 5px;
+  ;
+}
+
+button {
+  background-color: #5a6e8f;
+  font-size: 12px;
+  border: #5a6e8f;
+  border-radius: 3px;
+  padding: 2px 5px;
+  color: #f1f4fb;
+}
+
+.bh h2 {
+  background-color: #001f56;
+  color: #f1f4fb;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.mac {
+  border: none;
+}
+
+.table th {
+  border-top: none;
+}
+
+.table th,
+.table td,
+.table thead th {
+  white-space: nowrap;
+}
+
+.table thead th {
+  color: #34687e;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.table th,
+.table td {
+  color: #001f56;
+  font-size: 14px;
+}
+
+.row.bottom {
+  margin-top: 20px;
+}
+
+/*--- section end--- */

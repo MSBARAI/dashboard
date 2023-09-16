@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+
+  img {
+    max-width: 100%;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-6 {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .logo,
+  .head-name,
+  .user {
+    margin-bottom: 20px;
+  }
+
+  .ch {
+    margin-bottom: 20px;
+  }
+
+  .table thead th {
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+  }
+
+  .col-md-6.col-xs-12.ch {
+    margin-bottom: 30px;
+  }
+}
